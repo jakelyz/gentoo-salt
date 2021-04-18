@@ -10,7 +10,6 @@
 {{ minion_defs.config.base_repo }}:
   git.latest:
     - target: {{ minion_defs.config.base_root }}
-    - force: True
 
 /etc/salt/minion.d:
   file.directory:

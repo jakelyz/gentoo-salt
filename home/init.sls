@@ -6,6 +6,6 @@
   file.directory:
     - user: jakelyz
     - group: jakelyz
-    - mode: '0755'
+    - mode: '0700'
 
 {% endfor %}
