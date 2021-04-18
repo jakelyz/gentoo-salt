@@ -1,0 +1,4 @@
+---
+config:
+  base_root: /home/jakelyz/opt/salt
+  base_repo: https://github.com/jakelyz/gentoo-salt.git

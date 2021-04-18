@@ -1,0 +1,8 @@
+---
+config:
+  dirs:
+    - 'bin'
+    - 'dev'
+    - 'src'
+    - 'opt'
+    - '.config'
