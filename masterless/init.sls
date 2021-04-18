@@ -27,4 +27,4 @@
     - defaults:
         base_root: {{ minion_defs.config.base_root }}
     - require:
-        - file.directory: /etc/salt/minion.d
+        - file: /etc/salt/minion.d
