@@ -1,4 +1,4 @@
-# jakelyz/salt-gentoo config
+# jakelyz/salt config
 
 base:
   '*':

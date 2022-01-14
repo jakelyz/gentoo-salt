@@ -1,8 +1,8 @@
 ---
 config:
+  user: 'jlyz'
   dirs:
     - 'bin'
-    - 'dev'
-    - 'src'
+    - 'builds'
     - 'opt'
     - '.config'

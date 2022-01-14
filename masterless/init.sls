@@ -2,8 +2,8 @@
 
 {{ minion_defs.config.base_root }}:
   file.directory:
-    - user: jakelyz
-    - group: jakelyz
+    - user: jlyz
+    - group: jlyz
     - mode: '0700'
     - makedirs: True
 

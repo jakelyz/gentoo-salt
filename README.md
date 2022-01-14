@@ -1,1 +1,1 @@
-# gentoo-salt
+# jakelyz-salt

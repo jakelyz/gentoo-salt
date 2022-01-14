@@ -2,10 +2,10 @@
 
 {% for dir in home_defs.config.dirs %}
 
-/home/jakelyz/{{ dir }}:
+/home/{{ home_defs.config.user }}/{{ dir }}:
   file.directory:
-    - user: jakelyz
-    - group: jakelyz
+    - user: {{ home_defs.config.user }}
+    - group: {{ home_defs.config.user }}
     - mode: '0700'
 
 {% endfor %}
