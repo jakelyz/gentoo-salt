@@ -1,4 +1,10 @@
 ---
 config:
-  base_root: /home/jlyz/opt/salt
+  base_root: /home/jlyz/srv/salt
   base_repo: https://github.com/jakelyz/jakelyz-salt.git
+
+default_dirs:
+  - /etc/salt
+  - /var/cache/salt
+  - /var/run/salt
+  - /var/log/salt

@@ -6,3 +6,4 @@ config:
     - 'builds'
     - 'opt'
     - '.config'
+    - 'srv'

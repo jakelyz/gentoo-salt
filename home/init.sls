@@ -1,11 +1,11 @@
-{% import_yaml 'home/defaults.yaml' as home_defs %}
+{% import_yaml 'home/defaults.yaml' as home %}
 
-{% for dir in home_defs.config.dirs %}
+{% for dir in home.config.dirs %}
 
-/home/{{ home_defs.config.user }}/{{ dir }}:
+/home/{{ home.config.user }}/{{ dir }}:
   file.directory:
-    - user: {{ home_defs.config.user }}
-    - group: {{ home_defs.config.user }}
+    - user: {{ home.config.user }}
+    - group: {{ home.config.user }}
     - mode: '0700'
 
 {% endfor %}
