@@ -2,9 +2,9 @@ user_pkgs:
   pkg.installed:
     - pkgs:
       - vim
-      - tcsh
       - feh
-
+      - git
+      
 dev_pkgs:
   pkg.installed:
     - pkgs:
@@ -12,3 +12,4 @@ dev_pkgs:
       - gcc
       - golang-go
       - lxc
+      - build-essential

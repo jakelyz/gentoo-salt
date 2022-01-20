@@ -3,4 +3,4 @@
     - user: root
     - group: root
     - mode: '0644'
-    - source: salt://debian/apt/files/99local
+    - source: salt://apt/files/99local
